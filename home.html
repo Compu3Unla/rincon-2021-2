@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Rincón</title>
+<link href="indexestilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<header>
+		<nav class="fixednavbar">
+			<div class="homelogo">
+				<a href="index.html"><img src="img/header/home-rincon.svg" alt="Rincón" id="rincon" height="200px"/></a>
+			</div>
+			<div class="searchbar">
+				<form action="error.html">
+					<input type="text" placeholder="Buscar" name="type"/>
+				</form>
+				<button type="submit"><i class="type">
+					<a class="personal-buttons" id="button-lupa" href="busquedaavanzada.html" target="_blank"><img src="img/header/nav/buttons/lupa.svg" width="50px" height="50px" alt="lupa" class="hoverexpand" /></a></i>
+				</button>
+			</div>
+			<div class="personal-buttons-container">
+				<div class="notificaciones">
+					<button class="personal-buttons" id="btn-abrir-notif-popup">  
+						<a href="#mimodal"><img src="img/header/nav/buttons/notifs.svg" width="50px" height="50px" alt="Notificaciones" class="hoverexpand"/></a>
+					</button>
+				<div class="modal" id="mimodal">
+					<div class="modal-contenido">
+						<ul>
+							<li><img class="usuario1" src="img/header/notif/usuario_felix.jpg" alt="usuario1" width="40" height="40"><p><span>Julian_Tc:</span> Ha comentado <a href="#"><span>tu historieta</span></a></p></li>
+							<li><img class="usuario2" src="img/header/notif/usuario_lisa.jpg" alt="usuario2" width="40" height="40"><p><span>Canela_pop:</span> Comenzó a seguirte.</p></li>
+							<li><img class="usuario3" src="img/header/notif/usuario_goku.jpg" alt="usuario3" width="40" height="40"><p><span>FandeGoku:</span> Respondió a <a href="#"><span>tu comentario</span></a> de la publicación de <span>Costa Salmón.</span></p></li>
+							<li><img class="usuario4" src="img/header/notif/usuario_patricio.jpg" alt="usuario4" width="40" height="40"><p><span>Dibuu_girl: añadió</span><a href="#"> una nueva historia</a> de terror. <a href="#"><span>¡Ve a leerla!</span></a></p>
+							</li>
+							<li><a href="#"><button>Cerrar</button></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				<button class="personal-buttons" id="button-foros">
+					<a href="foros.html" target="_blank"><img src="img/header/nav/buttons/foros.svg" width="50px" height="50px" alt="Foros" class="hoverexpand"/></a></button>
+				<button class="personal-buttons" id="button-biblio">
+					<a href="Biblioteca.html" target="_blank"><img src="img/header/nav/buttons/biblio1.svg" width="50px" height="50px" alt="Biblioteca" class="hoverexpand"/></a></button>
+				<button class="personal-buttons" id="button-perfil">
+					<a href="perfil.html" target="_blank"><img src="img/header/nav/buttons/perfil.svg" width="50px" height="50px" alt="" class="hoverexpand"/></a></button>
+				<button class="personal-buttons" id="button-config">
+					<a href="Configuracion.html" target="_blank"><img src="img/header/nav/buttons/config.svg" width="50px" height="50px" alt="" class="hoverexpand"/></a>
+				</button>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="slider-container">
+			<article id="slider" class="slider">
+				<div class="slider-flex">
+					<button id="button-slider" class="button-slider"><img src="img/header/nav/buttons/biblio1.svg" width="80px" height="80px" alt="SeguirLeyendo" class="hoverexpand"/></button>
+					<div id="mrgen"></div>
+					<div id="slider-content" class="slider-content">
+						<h2>Recientes</h2>
+						<div>
+							<h5>Seguir leyendo..</h5>
+							<div class="historieta-preview-static">
+								<div class="historieta-content">
+									<img src="img/main/historietas/misterio/4-lady-mal-aguero.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>Lady Mal Agüero.</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>	
+							</div>
+							</div>
+						<div>
+							<h5>Volver al Foro..</h5>
+							<div class="foro-preview">
+								<h4>Cual es el significado de Lady Mal Agüero</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="carrusel_display">
+				<div class="carrusel_container">
+					<div class="carrusel">
+						<div><ol class="carrusel_viewport">
+							<li id="carrusel_slide1" tabindex="0" class="carrusel_slide">
+								<div class="image-slide"><img src="img/main/carrusel/banner_mes.png" alt="banner1" class="image-viewport"></div>
+									<a href="#carrusel_slide4" class="carrusel_prev button-carrusel">Slide4</a>
+									<a href="#carrusel_slide2" class="carrusel_next button-carrusel">Slide2</a>
+								<div class="carrusel_snapper"></div>
+							</li>
+							<li id="carrusel_slide2" tabindex="0" class="carrusel_slide">
+								<div class="carrusel_snapper"></div>
+								<a href="#carrusel_slide1" class="carrusel_prev button-carrusel">Slide1</a>
+								<a href="#carrusel_slide3" class="carrusel_next button-carrusel">Slide3</a>
+								<div class="image-slide"><img src="img/main/carrusel/banner_seguinos.png" alt="banner2" class="image-viewport"></div>
+							</li>
+							<li id="carrusel_slide3" tabindex="0" class="carrusel_slide">
+								<div class="carrusel_snapper"></div>
+								<a href="#carrusel_slide2" class="carrusel_prev button-carrusel">Slide2</a>
+								<a href="#carrusel_slide4" class="carrusel_next button-carrusel">Slide4</a>
+								<div class="image-slide"><img src="img/main/carrusel/banner_concurso.png" alt="banner3" class="image-viewport"></div>
+
+							</li>
+							<li id="carrusel_slide4" tabindex="0" class="carrusel_slide">
+								<div class="carrusel_snapper"></div>
+								<a href="#carrusel_slide3" class="carrusel_prev button-carrusel">Slide3</a>
+								<a href="#carrusel_slide1" class="carrusel_next button-carrusel">Slide1</a>
+								<div class="image-slide" ><img src="img/main/carrusel/banner_twitch.png" alt="banner4" class="image-viewport"></div>
+							</li>
+						</ol></div>
+						<div class="carrusel_navigation">
+							<ol class="carrusel_navigation-list">
+								<li class="carrusel_navigation-list">
+									<a href="#carrusel_slide1" class="carrusel_navigation-button"><div class="carrusel_navigation-item"></div></a>
+								</li>
+								<li class="carrusel_navigation-list">
+									<a href="#carrusel_slide2" class="carrusel_navigation-button"><div class="carrusel_navigation-item"></div></a>
+								</li>
+								<li class="carrusel_navigation-list">
+									<a href="#carrusel_slide3" class="carrusel_navigation-button"><div class="carrusel_navigation-item"></div></a>
+								</li>
+								<li class="carrusel_navigation-list">
+									<a href="#carrusel_slide4" class="carrusel_navigation-button"><div class="carrusel_navigation-item"></div></a>
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<article class="calendario-container">
+					<div class="calendario">
+						<button id="calendario"><a href="calendario.html" target="_blank"><img src="img/main/calendario/calendario.svg" width="50px" height="50px" alt="Calendario" class="hoverexpand"/></a></button>
+						<button onclick="show_lunes()" id="icono-lunes"><img src="img/main/calendario/icono-lunes.svg" width="50px" height="50px" alt="lunes" class="hoverexpand"/></button>
+						<button onclick="show_martes()" id="icono-martes"><img src="img/main/calendario/icono-martes.svg" width="50px" height="50px" alt="martes" class="hoverexpand"/></button>
+						<button onclick="show_miercoles()" id="icono-miercoles"><img src="img/main/calendario/icono-miercoles.svg" width="50px" height="50px" alt="miercoles" class="hoverexpand"/></button>
+						<button onclick="show_jueves()" id="icono-jueves"><img src="img/main/calendario/icono-jueves.svg" width="50px" height="50px" alt="jueves" class="hoverexpand"/></button>
+						<button onclick="show_viernes()" id="icono-viernes"><img src="img/main/calendario/icono-viernes.svg" width="50px" height="50px" alt="viernes" class="hoverexpand"/></button>
+						<button onclick="show_sabado()" id="icono-sabado"><img src="img/main/calendario/icono-sabado.svg" width="50px" height="50px" alt="sabado" class="hoverexpand"/></button>
+						<button onclick="show_domingo()" id="icono-domingo"><img src="img/main/calendario/icono-domingo.svg" width="50px" height="50px" alt="domingo" class="hoverexpand"/></button>
+					</div>
+				</article>
+			</section>
+			<section class="calendario-content">
+				<article id="lunes">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">	
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <p>Espitirus<br><br>Dos pibes de Lan&uacute;s que se dedican a capturan animales extraños con la esperanza de usarlos para entretener a la gente de capital y ganarse unos pesos.</p>
+								</div>
+								<img src="img/main/historietas/ci-fi/2-espiritus.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>Espitirus</h5>
+								</div>
+							</div>
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Lady Mal Agüero.<br><br>Luego de una de sus mas grandes presentaciones, Lady Maradriaga, desaparece sin dejar rastro alguno.</p>
+								</div>
+									<img src="img/main/historietas/misterio/4-lady-mal-aguero.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Lady Mal Agüero.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Pasaje oscuro<br><br>Un camino normal, o al menos eso parecía, porque es un lugar del que nunca mas saldrías si tenes la mala idea de tomarlo.</p>
+								</div>
+								<img src="img/main/historietas/terror/5-pasaje-oscuro.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Pasaje oscuro</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Una sonrisa más<br><br>A veces no es tan bueno tener una ventana que da a la calle.</p>
+								</div>
+								<img src="img/main/historietas/terror/4-una-sonrisa-de-mas.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Una sonrisa más</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article id="martes">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">	
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <p>B-B-Bucky!<br><br>Bucky, es un detective que busque la verdad de su pasado. Junto a Rufus, llevaran su investigacion que los llevar a una red de tráfico de órganos... </p>
+								</div>
+								<img src="img/main/historietas/ci-fi/3-b-b-bucky.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>B-B-Bucky!</h5>
+								</div>
+							</div>
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Lady Mal Agüero.<br><br>Luego de una de sus mas grandes presentaciones, Lady Maradriaga, desaparece sin dejar rastro alguno.</p>
+								</div>
+									<img src="img/main/historietas/misterio/4-lady-mal-aguero.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Lady Mal Agüero.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									  <p>Muertes dibujadas.<br><br>Raros y peculiares dibujos de insectos y otros bichos mas grandes empiezan a aparecer en la Tecnica 4½, y parece que nadie quiere averiguar que esta pasando.</p>
+								</div>
+									<img src="img/main/historietas/misterio/1-muertes-dibujadas.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Muertes dibujadas</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+							</div>	
+						</div>
+					</div>
+				</article>
+				<article id="miercoles">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">	
+						<div class="historieta-content-grande">
+							<div class="description">
+								 <p>SUPERNOVA<br><br>AHHHHH! SE ACERCA EL FIN! EL TERROR! EL MIEDO! LA REVELACION? Esperen.. es realmente el fin.. O sera un nuevo comienzo?</p>
+							</div>
+							<img src="img/main/historietas/ci-fi/4-supernova.jpg" class="historieta-image" alt="example2"/>
+							<div class="titlename">
+								<h5>SUPERNOVA</h5>
+							</div>
+						</div>
+						<div class="frame-grande">
+							<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+						</div>	
+					</div>
+						<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								<p>Falcon down.<br><br>En una distopia posapocaliptica, Mila, es la ultima corredora de Falcons, el auto mas r&iacute;pido creado hasta la fecha.</p>
+							</div>
+								<img src="img/main/historietas/accion/1-falcon down.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>Falcon down</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+						</div>	
+					</div>
+					</div>
+				</article>
+				<article id="jueves">
+					Seguir navegando
+				</article>
+				<article id="viernes">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">	
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <p>B-B-Bucky!<br><br>Bucky, es un detective que busque la verdad de su pasado. Junto a Rufus, llevaran su investigacion que los llevar a una red de tráfico de órganos... </p>
+								</div>
+								<img src="img/main/historietas/ci-fi/3-b-b-bucky.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>B-B-Bucky!</h5>
+								</div>
+							</div>
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									<p>50<br><br>50 años en 50 imagenes.Trabajo experimental que busca narrar una vida, tomando un dia de cada año para ello.</p>
+								</div>
+									<img src="img/main/historietas/cotidiano/2-50.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>50</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+							</div>	
+						</div>
+					</div>
+				</article>	
+				<article id="sabado">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">	
+						<div class="historieta-content-grande">
+							<div class="description">
+								<p>Espitirus<br><br>Dos pibes de Lan&uacute;s que se dedican a capturan animales extraños con la esperanza de usarlos para entretener a la gente de capital y ganarse unos pesos.</p>
+							</div>
+							<img src="img/main/historietas/ci-fi/2-espiritus.jpg" class="historieta-image" alt="example2"/>
+							<div class="titlename">
+								<h5>Espiritus</h5>
+							</div>
+						</div>
+						<div class="frame-grande">
+							<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+						</div>	
+					</div>
+						<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								<p>Mate of Life<br><br>50 años en 50 imagenes.Trabajo experimental que busca narrar una vida, tomando un dia de cada año para ello.</p>
+							</div>
+								<img src="img/main/historietas/cotidiano/4-mate of life.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>Mate of Life</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+						</div>	
+					</div>
+						<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>HOYOH<br><br>Cosas extrañas pasan en una ciudad, donde parece que el concepto de Capicúa, va mas allá de una simple curiosidad..</p>
+							</div>
+								<img src="img/main/historietas/terror/1-hoyoh.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>HOYOH</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+						</div>	
+					</div>
+					</div>
+				</article>	
+				<article id="domingo">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">	
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <p>La historia con fin<br><br>Entramos al reino de los Erks, donde el protagonista es un joven guerrero llamado Ludo, a quien la Reina Soledad, pide iniciar una búsqueda para hallar una cura a la está matando lentamente.</p>
+								</div>
+								<img src="img/main/historietas/fantasia/3-la-historia-con-fin.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>La historia con fin</h5>
+								</div>
+							</div>
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									<p>Mate of Life<br><br>50 años en 50 imagenes.Trabajo experimental que busca narrar una vida, tomando un dia de cada año para ello.</p>
+								</div>
+									<img src="img/main/historietas/cotidiano/4-mate of life.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Mate of Life</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>HOYOH<br><br>Cosas extrañas pasan en una ciudad, donde parece que el concepto de Capicúa, va mas allá de una simple curiosidad..</p>
+								</div>
+									<img src="img/main/historietas/terror/1-hoyoh.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>HOYOH</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									<p>Raja<br><br>La esperada historia que continua su tomo anterior “NO TE VAYAS” desde la perspectiva de Marisa.</p>
+								</div>
+									<img src="img/main/historietas/terror/8-raja.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Raja</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border" width="200px" height="250px"/>
+							</div>	
+						</div>
+					</div>
+				</article>
+			</section>
+			<section class="categorias">
+				<article class="botones_categoria">
+					<button onclick="comedia_show()"><img src="img/main/categorias/comedia.svg" class="hoverexpand" alt="Boton Drama" height="150px" width="150px"></button>
+					<button onclick="drama_show()"><img src="img/main/categorias/drama.svg" class="hoverexpand" alt="Boton Comedia" height="150px" width="150px"></button>
+					<button onclick="accion_show()"><img src="img/main/categorias/accion.svg" class="hoverexpand" alt="Boton Accion"  height="150px" width="150px"></button>
+					<button onclick="ci_fi_show()"><img src="img/main/categorias/ci-fy.svg" class="hoverexpand" alt="Boton Ci-fi" height="150px" width="150px"></button>
+					<button onclick="cotidiano_show()"><img src="img/main/categorias/cotidiano.svg" class="hoverexpand" alt="Boton Cotidiano" height="150px" width="150px"></button>
+					<button onclick="policial_show()"><img src="img/main/categorias/policial.svg" class="hoverexpand" alt="Boton Policial"  height="150px" width="150px"></button>
+					<button onclick="romance_show()"><img src="img/main/categorias/romance.svg" class="hoverexpand" alt="Boton Romance" height="150px" width="150px"></button>
+					<button onclick="terror_show()"><img src="img/main/categorias/terror.svg" class="hoverexpand" alt="Boton Terror" height="150px" width="150px"></button>
+					<button onclick="misterio_show()"><img src="img/main/categorias/misterio.svg" class="hoverexpand" alt="Boton Misterio"  height="150px" width="150px"></button>
+					<button onclick="fantasia_show()"><img src="img/main/categorias/fantasia.svg" class="hoverexpand" alt="Boton Fantasia" height="150px" width="150px"></button>
+				</article>
+			</section>
+			<section class="categorias-content">
+				<article id="terror">
+					<div class="gid-categorias" >
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Una categoría reservada solo para aquellos que quieren sentir su sangre helarse con escabrosas historias que asustarian al heroe mas valiente.</h4>
+								</div>
+								<img src="img/main/categorias/terror.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande" height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Raja<br><br>La esperada historia que continua su tomo anterior “NO TE VAYAS” desde la perspectiva de Marisa.</p>
+								</div>
+								<img src="img/main/historietas/terror/7-raja.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Raja</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>No te vayas<br><br>Eran mañanas tranquilas en la ruta, a mediados de Febrero, Javier viajaba durante sus vacaciones hacia un pequeño pueblo turístico en las afueras de Bs. As.</p>
+								</div>
+								<img src="img/main/historietas/terror/6-no-te-vayas.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>No te vayas</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Pasaje oscuro<br><br>Un camino normal, o al menos eso parecía, porque es un lugar del que nunca mas saldrías si tenes la mala idea de tomarlo.</p>
+								</div>
+								<img src="img/main/historietas/terror/5-pasaje-oscuro.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Pasaje oscuro</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Una sonrisa más<br><br>A veces no es tan bueno tener una ventana que da a la calle.</p>
+								</div>
+								<img src="img/main/historietas/terror/4-una-sonrisa-de-mas.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Una sonrisa más</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Ojos de cuervo<br><br>Quien sin reproche te mira de noche, Quien recoge tu mirada a la madrugada y con su graznido termina con tus ronquidos.</p>
+								</div>
+								<img src="img/main/historietas/terror/3-ojos-de-cuervo.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Ojos de cuervo</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Papel<br><br>Toy-Storys nos dejo con la duda, ¿Qué hacen los juguetes cuando no los vemos? Esta, es una respuesta un poco mas tenebrosa que la de esa película.</p>
+								</div>
+								<img src="img/main/historietas/terror/2-papel.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Papel</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview terror">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>HOYOH<br><br>Cosas extrañas pasan en una ciudad, donde parece que el concepto de Capicúa, va mas allá de una simple curiosidad..</p>
+								</div>
+								<img src="img/main/historietas/terror/1-hoyoh.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>HOYOH</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article id="cotidiano">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+								<div class="historieta-content-grande">
+									<div class="description">
+										 <h4>Historias simples, que narran sucesos de personas comunes, como vos y yo, ideales para leer junto a un buen mate o una rica taza de café.</h4>
+									</div>
+									<img src="img/main/categorias/cotidiano.png" class="historieta-image" alt="example1"/>
+								</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>5<br><br>Divertidas historias de un peculiar halloween que nuestros protagonistas desearan que nunca termine.</p>
+								</div>
+								<img src="img/main/historietas/cotidiano/6-5.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>5</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>el dia del gato<br><br>Un dia comun en la agetreada vida de Lu, donde su gato no vuelve a casa y ella, dejando todas sus tareas de lado decide salir a buscarlo.</p>
+								</div>
+								<img src="img/main/historietas/cotidiano/5-el-dia-del-gato.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>el dia del gato</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>mate of life<br><br>5 amigos, 1 mate e innumerables historias se juntan una tarde de otoño en un quincho viejo mientras se esta prendiendo el fuego para el asado.</p>
+								</div>
+								<img src="img/main/historietas/cotidiano/4-mate-of-life.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>mate of life</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Kitty<br><br>kitty se porta bien, kitty nunca sale, kitty se duerme a las 10, kitty se harto de se una buena chica, y ahora quiere salir a divertirse.</p>
+								</div>
+								<img src="img/main/historietas/cotidiano/3-katty.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Kitty</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>50<br><br>50 años en 50 imagenes.Trabajo experimental que busca narrar una vida, tomando un dia de cada año para ello.</p>
+								</div>
+								<img src="img/main/historietas/cotidiano/2-50.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>50</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Karla<br><br>Karlita, (la de cara de culisuelta jaja), En esta historia vamos a conocer la vida de Lourdes, una niña influencer.</p>
+								</div>
+								<img src="img/main/historietas/cotidiano/1-karla.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Karla</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>	
+					</div>
+				</article>
+				<article id="misterio">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Ya sean detectives victorianos en las calles de Londres o una extraña leyenda que lleve a un cofre secreto,  en este lugar todos los misterios van a ser revelados.</h4>
+								</div>
+								<img src="img/main/categorias/misterio.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Lady Mal Agüero.<br><br>Luego de una de sus mas grandes presentaciones, Lady Maradriaga, desaparece sin dejar rastro alguno.</p>
+								</div>
+								<img src="img/main/historietas/misterio/4-lady-mal-aguero.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Lady Mal Agüero.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Muertes dibujadas.<br><br>Raros y peculiares dibujos de insectos y otros bichos mas grandes empiezan a aparecer en la Tecnica 4½, y parece que nadie quiere averiguar que esta pasando.</p>
+								</div>
+								<img src="img/main/historietas/misterio/1-muertes-dibujadas.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Muertes dibujadas.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>NO-NOTICIAS.<br><br>Inspirado en las historias de Conan Doyle, NO-NOTICIAS se enfoca en el caso abandonado de la desaparecida presentadora Maria Jose Basilé en los 90’, y el retorno a su caso.</p>
+								</div>
+								<img src="img/main/historietas/misterio/2-no-noticias.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>NO-NOTICIAS</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Siluetas de papel.<br><br>Hotel Edén, Córdoba. Un rastro de pistas que parecen no tener fin..la muchedumbre apunta sus dedos a un evento paranormal, pero en este lugar nada es lo que parece...</p>
+								</div>
+								<img src="img/main/historietas/misterio/3-siluetas-de-papel.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Siluetas de papel</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>	
+					</div>
+				</article>
+				<article id="drama">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Tension, peleas, lagrimas y desamparo! Sentimientos tan arduos que nos encanta consumir y nos dejan pidiendo por más!</h4>
+								</div>
+								<img src="img/main/categorias/drama.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Umbrella<br><br>Un grupo de amigos se unen en una banda llamada Umbrella, y deciden participar de un torneo de bandas pero algo sale mal y se separan...</p>
+								</div>
+								<img src="img/main/historietas/drama/6-umbrella.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Umbrella</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>EL BARCO<br><br>Un barco, una vez, iba a navegar, su nombre era “la tetera del mar”, el viento soplo y soplo y casi lo hundió.CHICOS NO DEJEN DE REMAR.</p>
+								</div>
+								<img src="img/main/historietas/drama/5-el-barco.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>EL BARCO</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>OSVALDO<br><br>Un incomprendido, al que nadie quiso nunca conocer, pero todos siempre lo criticaron.</p>
+								</div>
+								<img src="img/main/historietas/drama/4-osvaldo.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>OSVALDO</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Cafe de media noche<br><br>Más de una trajedia se cuese en las entrañas de la ciudad, esta es una de ellas.</p>
+								</div>
+								<img src="img/main/historietas/drama/3-cafe-de-media-noche.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Cafe de media noche</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>mi peque gran amigo<br><br>los amigos imaginarios son algo común en los niños, pero... ¿que pasaría si no fueran tan imaginarios?.</p>
+								</div>
+								<img src="img/main/historietas/drama/2-mi-peque-gran-amigo.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>mi peque gran amigo</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Habitad<br><br>Cansado de su vida, un empresario decide vender todo y comprar un lienzo, así inicia la historia de uno de los peores artistas de nuestra época.</p>
+								</div>
+								<img src="img/main/historietas/drama/1-habitad.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Habitad</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article id="romance">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+								<div class="historieta-content-grande">
+									<div class="description">
+										 <h4>La más bella y apasionada categoría, llena de un amor tan embriagante que de ser necesario podrían hacerle frente a cualquier obstáculo.</h4>
+									</div>
+									<img src="img/main/categorias/romance.png" class="historieta-image" alt="example1"/>
+								</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+							</div>
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>Lovely<br><br>una chica corriente que agoiada por cuestiones varias deja la universiad para conseguir trabajo, aunque lo que no esperaba, era que su jefa, le diera algo más que trabajo.</p>
+									</div>
+									<img src="img/main/historietas/romance/4-lovely.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>Lovely</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>		
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>Amor en Pandemia<br><br>Esta es la historia de dos chicos que se conocieron días antes del inicio de la epidemia, pero uno de ellos esconde un pequeño secreto ¿Esto podrá separarlos o unirlos más?</p>
+									</div>
+									<img src="img/main/historietas/romance/3-amor-en-pandemia.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>Amor en Pandemia</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>ay, ay, mi amore<br><br>Mirta se ve involucrada en un experimento que podria salvar al universo.. y tal ves amendar su corazon. La esperada continuacion a “Que sigue, Casanova?”</p>
+									</div>
+									<img src="img/main/historietas/romance/2-ay,-ay,-mi-amore.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>ay, ay, mi amore</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>que sigue casanova<br><br>Un amor sin limites... Sera un recorrido peculiar para la valiente Mirta.. Cuantos encuentros extrafalarios tendra que pasar antes de finalmente verla de nuevo?</p>
+									</div>
+									<img src="img/main/historietas/romance/1-que-sigue-casanova.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>que sigue casanova</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>
+					</div>
+				</article>
+				<article id="policial">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Si tenes sed de tensión y el suspenso de las buenas series policiales, (o tal ves un poco de bronca guardada), has llegado corriendo al lugar indicado.</h4>
+								</div>
+								<img src="img/main/categorias/policial.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>tulio mercurio<br><br>Harto de marte, el detective tulio, decide mudarse al peor planeta del sistema, la tierra, un basurero lleno de ratas, pero al fin y al cabo, el mejor lugar para su trabajo.</p>
+									</div>
+									<img src="img/main/historietas/policial/3-tulio-mercurio.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>tulio mercurio</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>cruzadas<br><br>Que serias capas de hacer si tu vida fuera arruinada y nadie, ni siquiera la policia fuera capaz de ayudarte.</p>
+									</div>
+									<img src="img/main/historietas/policial/2-cruzadas.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>cruzadas</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>
+						<div class="historieta-preview">
+								<div class="historieta-content">
+									<div class="description">
+										 <p>Mar de Dudas<br><br>abazallante historia, repleta de misterio.</p>
+									</div>
+									<img src="img/main/historietas/policial/1-mar-de-dudas.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>Mar de Dudas</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>
+							</div>
+					</div>
+				</article>
+				<article id="fantasia">
+					<div class="gid-categorias" >
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Aventuraos a las tierras más allá de Tandil, lugares llenos de hadas y duendes, donde los faunos bailan con la luna y el pomperito se embriaga con miel.</h4>
+								</div>
+								<img src="img/main/categorias/fantasia.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Frutal.<br><br>Bienvenidos al mundo mas colorido e intoxicante de todos! Frutilandia! Podra nuestro equipo de heroes sobrevivir su travesia en este lugar sin que les saquen el jugo?</p>
+								</div>
+								<img src="img/main/historietas/fantasia/1-frutal.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Frutal.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>	
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Oficina Marina Huapi.<br><br>“Buenas tardes, Oficina Mariina Huapi, que neceista? Tenemos todo un sequito de profesonales marinos a su disposicion! Oh, usted es.. humano?!”</p>
+								</div>
+								<img src="img/main/historietas/fantasia/4-oficina-marina-huapi.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Oficina Marina Huapi.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>		
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>La historia con fin<br><br>Entramos al reino de los Erks, donde el protagonista es un joven guerrero llamado Ludo, a quien la Reina Soledad, pide iniciar una búsqueda para hallar una cura a la está matando lentamente.</p>
+								</div>
+								<img src="img/main/historietas/fantasia/3-la-historia-con-fin.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>La historia con fin</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>BebePine<br><br>BebePine, la nueva estudiante en brujeria de la academia UBA (Universidad de Brujas Aptas), es la nueva encargada de la feria fantastica del año, pero no esta segura si podra con el desafio.</p>
+								</div>
+								<img src="img/main/historietas/fantasia/2-bebepine.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>BebePine</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+					</div>
+				</article>
+				<article  id="ci_fi">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Un lugar para exploradores, que busquen ir mas allá de lo que ningún hombre fue, que deseen sumergirse en el mar o espacio, en busca..</h4>
+								</div>
+								<img src="img/main/categorias/Ci Fi.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>En busqueda de más espacio<br><br>Que llevaria al hombre expander los limites de la galaxia? Sera el conocimiento? La ambicion de poder? O podria ser...</p>
+								</div>
+								<img src="img/main/historietas/ci-fi/1-en-busqueda-de-espacio.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>En busqueda de más espacio</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Espitirus<br><br>Dos pibes de Lan&uacute;s que se dedican a capturan animales extraños con la esperanza de usarlos para entretener a la gente de capital y ganarse unos pesos.</p>
+								</div>
+								<img src="img/main/historietas/ci-fi/2-espiritus.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>Espitirus</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>	
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>B-B-Bucky!<br><br>Bucky, es un detective que busque la verdad de su pasado. Junto a Rufus, llevaran su investigacion que los llevar a una red de tráfico de órganos... </p>
+								</div>
+								<img src="img/main/historietas/ci-fi/3-b-b-bucky.jpg" class="historieta-image" alt="example3"/>
+								<div class="titlename">
+									<h5>B-B-Bucky!</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>	
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>SUPERNOVA<br><br>AHHHHH! SE ACERCA EL FIN! EL TERROR! EL MIEDO! LA REVELACION? Esperen.. es realmente el fin.. O sera un nuevo comienzo?</p>
+								</div>
+								<img src="img/main/historietas/ci-fi/4-supernova.jpg" class="historieta-image" alt="example4"/>
+								<div class="titlename">
+									<h5>SUPERNOVA</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Hugo<br><br>Quien es Hugo? Que es... Hugo? Este es Hugo, y todos van a tener que aprender sobre &eacute;l.</p>
+								</div>
+								<img src="img/main/historietas/ci-fi/5-hugo.jpg" class="historieta-image" alt="example5"/>
+								<div class="titlename">
+									<h5>Hugo</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article id="comedia">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>Si sos de las personas que aman reir por horas, hasta no sentir su cara y que le duela la pansa, este es el genero indicado para vos.</h4>
+								</div>
+								<img src="img/main/categorias/comedia.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Alocate.<br><br>Como diria el buen meme, ¡estooo se vaaa descontrolaaaaaaaar!</p>
+								</div>
+								<img src="img/main/historietas/comedia/1-alocate.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Alocate.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>La pavada.<br><br>Recopilación de anécdotas, y si, todas suceden en la edad de la pavada, de ahí el nombre, jaja re gracioso.</p>
+								</div>
+								<img src="img/main/historietas/comedia/2-la-pavada.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>La pavada.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Ermitaños.<br><br>Un peculiar relato marítimo, la vida de un cangrejo y su búsqueda de un lugar al que llamar hogar, por ejemplo, una latita de arvejas doblemente remojadas.</p>
+								</div>
+								<img src="img/main/historietas/comedia/3-ermitaños.jpg" class="historieta-image" alt="example3"/>
+								<div class="titlename">
+									<h5>Ermitaños.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>	
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Cuentos Con-Medias.<br><br>Antología de cuentos cortos, que nos narraran los hilarantes acontecimientos que sucedes en un local de stand-up bonaerense cuando se apagan las luces.</p>
+								</div>
+								<img src="img/main/historietas/comedia/4-cuentos-con-medias.jpg" class="historieta-image" alt="example4"/>
+								<div class="titlename">
+									<h5>Cuentos Con-Medias.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>	
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>El kokun supa.<br><br>En esta historia vamos a conocer al kokun, un personaje prejuicioso e incapaz de perder las apuestas que le van imponiendo sus amigos.</p>
+								</div>
+								<img src="img/main/historietas/comedia/5-el-kokun-supa.jpg" class="historieta-image" alt="example5"/>
+								<div class="titlename">
+									<h5>El kokun supa.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>	
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>SeRIEdaD.<br><br>Un grupo de amigos intentara investigar los sucesos inquietantes que suceden a su alrededor, aunque un boludo se lo toma a joda y genera más bardo.</p>
+								</div>
+								<img src="img/main/historietas/comedia/6-seriedad.jpg" class="historieta-image" alt="example5"/>
+								<div class="titlename">
+									<h5>SeRIEdaD.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article id="accion">
+					<div class="gid-categorias">
+						<div class="historieta-preview-grande">
+							<div class="historieta-content-grande">
+								<div class="description">
+									 <h4>En situaciones de peligro, tu corazón se acelera, y se disparan tus sentidos ¿huir o pelear? ¡Leer estas historias! ¡OBVIO! No hay mejor lugar para la acción.</h4>
+								</div>
+								<img src="img/main/categorias/accion.png" class="historieta-image" alt="example1"/>
+							</div>							
+							<div class="frame-grande">
+								<img src="img/main/border_grande.svg" alt="border" class="frame-grande"  height="250px"/>
+							</div>
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Falcon down.<br><br>En una distopia posapocaliptica, Mila, es la ultima corredora de Falcons, el auto mas r&iacute;pido creado hasta la fecha.</p>
+								</div>
+								<img src="img/main/historietas/accion/1-falcon-down.jpg" class="historieta-image" alt="example1"/>
+								<div class="titlename">
+									<h5>Falcon Down.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Evoluci&iacute;n.<br><br>Evoluciona. Soy una cabeza. Soy un hombre. Soy el primer mam&iacute;fero en usar pantalones. Estoy en paz con mi lujuria. Es evoluci&iacute;n</p>
+								</div>
+								<img src="img/main/historietas/accion/2-evolucion.jpg" class="historieta-image" alt="example2"/>
+								<div class="titlename">
+									<h5>Evoluci&oacute;n.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Renacer.<br><br>Lucas tuvo una segunda oportunidad, murió en por una pelea de pandillas, pero volvió en el tiempo a cuando tenia 10 años.</p>
+								</div>
+								<img src="img/main/historietas/accion/3-renacer.jpg" class="historieta-image" alt="example3"/>
+								<div class="titlename">
+									<h5>Renacer</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Guerreros Callejeros.<br><br>Pato, el piromantico, quiere dominar la ciudad de Onima, donde viven nuestros heroes, Kevin y Rodolfo.</p>
+								</div>
+								<img src="img/main/historietas/accion/4-guerreros-callejeros.jpg" class="historieta-image" alt="example4"/>
+								<div class="titlename">
+									<h5>Guerreros Callejeros</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>	
+						</div>
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>El Elegido.<br><br>Connor ser&aacute; el elegido, destinado a salvar el mundo de Mentalica la malvada corporaci&oacute;n que lo amenaza.</p>
+								</div>
+								<img src="img/main/historietas/accion/5-el-elegido.jpg" class="historieta-image" alt="example5"/>
+								<div class="titlename">
+									<h5>El Elegido.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>
+						</div>	
+						<div class="historieta-preview">	
+							<div class="historieta-content">
+								<div class="description">
+									 <p>Kamui Kosekhi.<br><br>Ellas llegaron de forma secreta a nuestro mundo para salvarnos del terrible Kram y sus secuases, aunque solo quieren tener una vida normal. ¿Te animas a conocerlas?</p>
+								</div>
+								<img src="img/main/historietas/accion/6-kamui-kosekhi.jpg" class="historieta-image" alt="example6"/>
+								<div class="titlename">
+									<h5>Kamui Kosekhi.</h5>
+								</div>
+							</div>
+							<div class="frame">
+								<img src="img/main/border.svg" class="frame" alt="border"/>
+							</div>		
+						</div>
+					</div>
+				</article>
+			</section>
+	</main> 
+	<footer> 
+		<div id="redessociales">
+			<button class="social-buttons" id="button-instagram">
+				<a href="https://instagram.com" target="_blank" ><img src="img/footer/redessociales/instagram.svg" width="50px" height="50px" alt="Foros" class="hoverexpand"/></a>
+			</button>
+			<button class="social-buttons" id="button-twitter">
+				<a href="https://twitter.com" target="_blank" ><img src="img/footer/redessociales/twitter.svg" width="50px" height="50px" alt="Foros" class="hoverexpand"/></a>
+			</button>
+			<button class="social-buttons" id="button-facebook">
+				<a href="https://facebook.com" target="_blank" ><img src="img/footer/redessociales/facebook.svg" width="50px" height="50px" alt="Foros" class="hoverexpand"/></a>
+			</button>
+			<button class="social-buttons" id="button-twitch">
+				<a href="https://twitch.com" target="_blank" ><img src="img/footer/redessociales/twich.svg" width="50px" height="50px" alt="Foros" class="hoverexpand"/></a>
+			</button>
+		</div>
+	</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

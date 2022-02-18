@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Rincon</title>
+<link href="indexestilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<header>
+		<nav class="fixednavbar">
+			<div class="homelogo">
+				<a href="index.html"><img src="img/header/home-rincon.svg" alt="Rincón" id="rincon" height="200px"/></a>
+			</div>
+			<div class="searchbar">
+				<form action="error.html">
+					<input type="text" placeholder="Buscar" name="type"/>
+				</form>
+				<button type="submit"><i class="type">
+					<a class="personal-buttons" id="button-lupa" href="busquedaavanzada.html" target="_blank"><img src="img/header/nav/buttons/lupa.svg" width="50px" height="50px" alt="lupa" class="hoverexpand" /></a></i>
+				</button>
+			</div>
+			<div class="personal-buttons-container">
+				<div class="notificaciones">
+					<button class="personal-buttons" id="btn-abrir-notif-popup">  
+						<a href="#mimodal"><img src="img/header/nav/buttons/notifs.svg" width="50px" height="50px" alt="Notificaciones" class="hoverexpand"/></a>
+					</button>
+				<div class="modal" id="mimodal">
+					<div class="modal-contenido">
+						<ul>
+							<li><img class="usuario1" src="img/header/notif/usuario_felix.jpg" alt="usuario1" width="40" height="40"><p><span>Julian_Tc:</span> Ha comentado <a href="#"><span>tu historieta</span></a></p></li>
+							<li><img class="usuario2" src="img/header/notif/usuario_lisa.jpg" alt="usuario2" width="40" height="40"><p><span>Canela_pop:</span> Comenzó a seguirte.</p></li>
+							<li><img class="usuario3" src="img/header/notif/usuario_goku.jpg" alt="usuario3" width="40" height="40"><p><span>FandeGoku:</span> Respondió a <a href="#"><span>tu comentario</span></a> de la publicación de <span>Costa Salmón.</span></p></li>
+							<li><img class="usuario4" src="img/header/notif/usuario_patricio.jpg" alt="usuario4" width="40" height="40"><p><span>Dibuu_girl: añadió</span><a href="#"> una nueva historia</a> de terror. <a href="#"><span>¡Ve a leerla!</span></a></p>
+							</li>
+							<li><a href="#"><button>Cerrar</button></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+				<button class="personal-buttons" id="button-foros">
+					<a href="foros.html" target="_blank"><img src="img/header/nav/buttons/foros.svg" width="50px" height="50px" alt="Foros" class="hoverexpand"/></a></button>
+				<button class="personal-buttons" id="button-biblio">
+					<a href="Biblioteca.html" target="_blank"><img src="img/header/nav/buttons/biblio1.svg" width="50px" height="50px" alt="Biblioteca" class="hoverexpand"/></a></button>
+				<button class="personal-buttons" id="button-perfil">
+					<a href="perfil.html" target="_blank"><img src="img/header/nav/buttons/perfil.svg" width="50px" height="50px" alt="" class="hoverexpand"/></a></button>
+				<button class="personal-buttons" id="button-config">
+					<a href="Configuracion.html" target="_blank"><img src="img/header/nav/buttons/config.svg" width="50px" height="50px" alt="" class="hoverexpand"/></a>
+				</button>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="slider-container">
+			<article id="slider" class="slider">
+				<div class="slider-flex">
+					<button id="button-slider" class="button-slider"><img src="img/header/nav/buttons/biblio1.svg" width="80px" height="80px" alt="SeguirLeyendo" class="hoverexpand"/></button>
+					<div id="mrgen"></div>
+					<div id="slider-content" class="slider-content">
+						<h2>Recientes</h2>
+						<div>
+							<h5>Seguir leyendo..</h5>
+							<div class="historieta-preview-static">
+								<div class="historieta-content">
+									<img src="img/main/historietas/misterio/4-lady-mal-aguero.jpg" class="historieta-image" alt="example1"/>
+									<div class="titlename">
+										<h5>Lady Mal Agüero.</h5>
+									</div>
+								</div>
+								<div class="frame">
+									<img src="img/main/border.svg" class="frame" alt="border"/>
+								</div>	
+							</div>
+							</div>
+						<div>
+							<h5>Volver al Foro..</h5>
+							<div class="foro-preview">
+								<h4>Cual es el significado de Lady Mal Agüero</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="perfil">
+			<article class="perfil-head">
+				<div class="foto-nombre">
+						<img src="img/main/perfil/head/imagen-perfil1.png" alt="fotodeperfil" width="160px" height="160px">
+						<h3 id="nombre-perfil" class="boton-amarillo text-over">Costa Salmon</h3>
+						<div class="redes_usuario">
+							<button class="social-buttons" id="button-instagramP">
+								<a href="https://instagram.com" target="_blank" ><img src="img/footer/redessociales/instagram.svg" width="50px" height="50px" alt="Foros" class="button-hover"/></a>
+							</button>
+							<button class="social-buttons" id="button-twitterP">
+								<a href="https://twitter.com" target="_blank" ><img src="img/footer/redessociales/twitter.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+							</button>
+							<button class="social-buttons" id="button-facebookP">
+								<a href="https://facebook.com" target="_blank" ><img src="img/footer/redessociales/facebook.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+							</button>
+							<button class="social-buttons" id="button-twitchP">
+								<a href="https://twitch.com" target="_blank" ><img src="img/footer/redessociales/twich.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+							</button>
+						</div>
+					</div>	
+				<div id="descripcionmia">
+					<p>Desde pequeña inicie a dibujar lo que me imaginaba y me anotaba a toda clase de cursos. Estudie y me recibi en la UAI de Tecnicatura en Animación Digital y Efectos Visuales  y en la Escuela Da Vinci tome el curso de Realización Integral de Comics y ahi encontre mi verdadera vocación.<br><br>  Creo que Rincón es el lugar que estaba buscando para mostrar mi arte, crear y expresarme libremente, esto va a ayudar a lanzarme tanto en lo profesional como personal.<br><br>Espero disfruten mucho leyendo mis historietas asi como yo disfruto realizandolas para ustedes.</p>
+				</div>
+				<div id="editarperfil">
+					<div class="hoverexpand" id="nuevahistoriap">
+						<a href="#">
+							<h3 class="boton-rosa text-over">Nueva Historia</h3>
+						</a>
+					</div>
+					<div class="hoverexpand " id="editarp">
+						<a href="#">
+							<h3 class="boton-rosa text-over">Editar Perfil</h3>
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="centrar" id="perfil-contenido-personal">
+			<div>
+				<h2>Tus Obras</h2>
+				<article class="gid-categorias" id="perfil-tusobras">
+					<div class="historieta-preview-grande">	
+						<div class="historieta-content-grande">
+							<div class="description">
+								<p>En busqueda de más espacio<br><br>Que llevaria al hombre expander los limites de la galaxia? Sera el conocimiento? La ambicion de poder? O podria ser...</p>
+							</div>
+							<img src="img/main/historietas/ci-fi/1-en-busqueda-de-espacio.jpg" class="historieta-image" alt="example2"/>
+							<div class="titlename">
+								<h5>En busqueda de más espacio</h5>
+							</div>
+						</div>
+						<div class="frame-grande">
+							<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+						</div>	
+					</div>
+					<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>5<br><br>Divertidas historias de un peculiar halloween que nuestros protagonistas desearan que nunca termine.</p>
+							</div>
+							<img src="img/main/historietas/cotidiano/6-5.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>5</h5>
+							</div>
+						</div>
+						<div class="frame">
+						<img src="img/main/border.svg" class="frame" alt="border"/>
+						</div>	
+					</div>
+					<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>50<br><br>50 años en 50 imagenes.Trabajo experimental que busca narrar una vida, tomando un dia de cada año para ello.</p>
+							</div>
+							<img src="img/main/historietas/cotidiano/2-50.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>50</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border"/>
+						</div>
+					</div>
+					<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>el dia del gato<br><br>Un dia comun en la agetreada vida de Lu, donde su gato no vuelve a casa y ella, dejando todas sus tareas de lado decide salir a buscarlo.</p>
+							</div>
+							<img src="img/main/historietas/cotidiano/5-el dia del gato.jpg" class="historieta-image" alt="example3"/>
+							<div class="titlename">
+								<h5>el dia del gato</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border"/>
+						</div>		
+					</div>	
+				</article>
+			</div>
+			<div>
+				<div id="like">
+					<h2>Tus favoritos</h2>
+					<img src="img/header/nav/buttons/notifs.svg" width="30px" height="30px" alt="Notificaciones"/>
+				</div>
+				<article class="gid-categorias" id="perfil-favoritos">
+					<div class="historieta-preview-grande">
+						<div class="historieta-content-grande">
+							<div class="description">
+								<p>Ojos de cuervo<br><br>Quien sin reproche te mira de noche, Quien recoge tu mirada a la madrugada y con su graznido termina con tus ronquidos.</p>
+							</div>
+							<img src="img/main/historietas/terror/3-ojos de cuervo.jpg" class="historieta-image" alt="example2"/>
+							<div class="titlename">
+								<h5>Ojos de cuervo</h5>
+							</div>
+						</div>
+						<div class="frame-grande">
+							<img src="img/main/border_grande.svg" class="frame-grande" alt="border"/>
+						</div>	
+					</div>
+					<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>No te vayas<br><br>Eran mañanas tranquilas en la ruta, a mediados de Febrero, Javier viajaba durante sus vacaciones hacia un pequeño pueblo turístico en las afueras de Bs. As.</p>
+							</div>
+							<img src="img/main/historietas/terror/7-no te vayas.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>No te vayas</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border"/>
+						</div>
+					</div>
+					<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>Raja<br><br>La esperada historia que continua su tomo anterior “NO TE VAYAS” desde la perspectiva de Marisa.</p>
+							</div>
+							<img src="img/main/historietas/terror/8-raja.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>Raja</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border"/>
+						</div>
+					</div>
+					<div class="historieta-preview">
+						<div class="historieta-content">
+							<div class="description">
+								 <p>Papel<br><br>Toy-Storys nos dejo con la duda, ¿Qué hacen los juguetes cuando no los vemos? Esta, es una respuesta un poco mas tenebrosa que la de esa película.</p>
+							</div>
+							<img src="img/main/historietas/terror/2-papel.jpg" class="historieta-image" alt="example1"/>
+							<div class="titlename">
+								<h5>Papel</h5>
+							</div>
+						</div>
+						<div class="frame">
+							<img src="img/main/border.svg" class="frame" alt="border"/>
+						</div>
+					</div>	
+				</article>
+			</div>
+		</section>
+		<section class="centrar">
+			<article class="comentarios-container">
+				<div style="width: 100%;">	
+					<h2>Comentarios</h2>
+					<div class="comentarios">
+						<div>
+							<div class="comentario">
+								<p><strong>Julian_Tc:</strong><br> me encantan todas tus historias pero las especiales siempre van a ser 5 y el dia del gato</p>
+							</div>
+						</div>
+						<div>
+							<div class="comentario">
+								<p><strong>Canela_pop:</strong><br>Wooow! que bellas historias, mi favorita es 50</p>
+							</div>
+						</div>
+						<div>
+							<div class="comentario">
+								<p><strong>KokunChan:</strong><br>Creo que cada trabajo estas mejorando un monton ¡VAS A LLEGAR LEJOS!</p>
+							</div>
+						</div>
+						<div>
+							<div class="comentario">
+								<p><strong>PapaFritaLectora:</strong><br>-SPOILERS- No entendi 50,al final, asuntos internos les tendia una trampa?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main> 
+	<footer> 
+		<div #redessociales>
+			<button class="social-buttons" id="button-instagram">
+				<a href="https://instagram.com" target="_blank" ><img src="img/footer/redessociales/instagram.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+			</button>
+			<button class="social-buttons" id="button-twitter">
+				<a href="https://twitter.com" target="_blank" ><img src="img/footer/redessociales/twitter.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+			</button>
+			<button class="social-buttons" id="button-facebook">
+				<a href="https://facebook.com" target="_blank" ><img src="img/footer/redessociales/facebook.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+			</button>
+			<button class="social-buttons" id="button-twitch">
+				<a href="https://twitch.com" target="_blank" ><img src="img/footer/redessociales/twich.svg" width="50px" height="50px" alt="Foros" class="button-hover" /></a>
+			</button>
+		</div>		
+	</footer>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
